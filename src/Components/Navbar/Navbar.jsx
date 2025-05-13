@@ -12,8 +12,34 @@ const Navbar = () => {
 
         <div>
           <ul>
-            <li></li>
+            <li>
+              <a href="#">Home</a>
+            </li>
+
+            <li>
+              <a href="#">Category</a>
+            </li>
+
+            <li>
+              <a href="#">Popular</a>
+            </li>
+
+            <li>
+              <a href="#">Shop</a>
+            </li>
+
+            <li>
+              <a href="#">Testimonial</a>
+            </li>
+
+            <li>
+              <a href="#">Contact</a>
+            </li>
           </ul>
+        </div>
+
+        <div>
+          <button>Shop Now</button>
         </div>
       </div>
     </>
