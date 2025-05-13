@@ -39,7 +39,10 @@ const Navbar = () => {
         </div>
 
         <div>
-          <button>Shop Now</button>
+          <button>
+            Shop Now <i className="ri-arrow-right-line"></i>
+            <i className="ri-menu-3-line"></i>
+          </button>
         </div>
       </div>
     </>
