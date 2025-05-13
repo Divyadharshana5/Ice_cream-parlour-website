@@ -15,7 +15,7 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div ref={menu}>
+        <div ref={menu} className="md:static absolute">
           <ul className="w-full flex flex-col md:flex-row gap-[15px] justify-center">
             <li className="">
               <a href="#" className="Navbar-link">
