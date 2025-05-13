@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-[20px] items-center justify-center">
-          <button>
+          <button className="btn">
             Shop Now <i className="ri-arrow-right-line"></i>
             <i className="ri-menu-3-line"></i>
           </button>

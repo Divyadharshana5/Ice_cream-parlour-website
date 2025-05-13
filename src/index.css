@@ -9,3 +9,7 @@
 .Navbar-link {
   @apply text-base hover:text-red-600 font-medium;
 }
+
+.btn {
+  @apply h-[40px] rounded-lg w-[120px] bg-red-400 text-white cursor-pointer transition-all duration-700 hover:bg-red-200 hover:text-red-800;
+}
