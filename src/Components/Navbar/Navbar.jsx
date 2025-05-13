@@ -3,42 +3,54 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="h-[80px]">
-        <div className="">
+      <div className="h-[80px] flex justify-between items-center px-[12%] py-[0] relative">
+        <div className="flex items-center justify-center">
           <span className="text-2xl text-red-600 font-medium cursor-pointer">
             ICEPARLOR
           </span>
         </div>
 
         <div>
-          <ul>
-            <li>
-              <a href="#">Home</a>
+          <ul className="w-full flex gap-[15px] justify-center">
+            <li className="">
+              <a href="#" className="Navbar-link">
+                Home
+              </a>
             </li>
 
             <li>
-              <a href="#">Category</a>
+              <a href="#" className="Navbar-link">
+                Category
+              </a>
             </li>
 
             <li>
-              <a href="#">Popular</a>
+              <a href="#" className="Navbar-link">
+                Popular
+              </a>
             </li>
 
             <li>
-              <a href="#">Shop</a>
+              <a href="#" className="Navbar-link">
+                Shop
+              </a>
             </li>
 
             <li>
-              <a href="#">Testimonial</a>
+              <a href="#" className="Navbar-link">
+                Testimonial
+              </a>
             </li>
 
             <li>
-              <a href="#">Contact</a>
+              <a href="#" className="Navbar-link">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
 
-        <div>
+        <div className="flex gap-[20px] items-center justify-center">
           <button>
             Shop Now <i className="ri-arrow-right-line"></i>
             <i className="ri-menu-3-line"></i>
