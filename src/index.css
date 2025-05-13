@@ -15,5 +15,9 @@
 }
 
 .bar {
-  @apply w-[40px] hidden justify-center items-center;
+  @apply w-[40px] flex md:hidden justify-center items-center;
+}
+
+.show-menu {
+  @apply left-[0%];
 }
