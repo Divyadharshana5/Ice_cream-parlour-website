@@ -54,7 +54,7 @@ const Navbar = () => {
           <button className="btn">
             Shop Now <i className="ri-arrow-right-line"></i>
           </button>
-          <i className="ri-menu-3-line"></i>
+          <i className="ri-menu-3-line btn bar"></i>
         </div>
       </div>
     </>
