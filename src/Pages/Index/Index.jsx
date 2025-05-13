@@ -8,9 +8,19 @@ const Index = () => {
       <Navbar />
 
       <div className="">
-        <div className=""></div>
         <div className="">
-          <img src={heroImage} alt="" />
+          <small>Best Seller</small>
+          <h2>
+            Ice Cream <br />
+            Novelties
+          </h2>
+          <p>
+            You can't buy happiness, but you can buy ice cream, and that is
+            pretty much the same thing.
+          </p>
+        </div>
+        <div className="">
+          <img src={heroImage} alt="header-image" className="" />
         </div>
       </div>
     </div>
