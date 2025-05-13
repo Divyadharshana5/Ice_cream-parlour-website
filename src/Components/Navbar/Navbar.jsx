@@ -20,37 +20,37 @@ const Navbar = () => {
           className="md:static absolute top-[100%] left-[-100%] md:left-[0%] z-999 gap-[20px] w-full transition-all duration-500 bg-white md:bg-[#ffded1]"
         >
           <ul className="w-full flex flex-col md:flex-row gap-[15px] justify-center">
-            <li className="">
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Home
               </a>
             </li>
 
-            <li>
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Category
               </a>
             </li>
 
-            <li>
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Popular
               </a>
             </li>
 
-            <li>
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Shop
               </a>
             </li>
 
-            <li>
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Testimonial
               </a>
             </li>
 
-            <li>
+            <li className="nav-wrapper">
               <a href="#" className="Navbar-link">
                 Contact
               </a>

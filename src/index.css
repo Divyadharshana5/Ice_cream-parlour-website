@@ -10,6 +10,10 @@
   @apply text-base hover:text-red-600 font-medium;
 }
 
+.nav-wrapper {
+  @apply border-b pb-5 pt-5 px-20 md:border-none md:p-0;
+}
+
 .btn {
   @apply h-[40px] rounded-lg w-[120px] bg-red-400 text-white cursor-pointer transition-all duration-700 hover:bg-red-200 hover:text-red-800;
 }
