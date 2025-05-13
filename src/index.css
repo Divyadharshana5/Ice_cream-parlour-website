@@ -18,6 +18,10 @@
   @apply h-[40px] rounded-lg w-[120px] bg-red-400 text-white cursor-pointer transition-all duration-700 hover:bg-red-200 hover:text-red-800;
 }
 
+.nav-btn {
+  @apply hidden sm:block;
+}
+
 .bar {
   @apply w-[40px] flex md:hidden justify-center items-center;
 }

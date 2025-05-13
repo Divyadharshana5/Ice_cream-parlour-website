@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-[20px] items-center justify-center">
-          <button className="btn">
+          <button className="btn nav-btn">
             Shop Now <i className="ri-arrow-right-line"></i>
           </button>
           <i className="ri-menu-3-line btn bar" onClick={menuhandler}></i>
