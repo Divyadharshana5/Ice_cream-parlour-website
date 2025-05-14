@@ -14,11 +14,11 @@ const Index = () => {
             Ice Cream <br />
             Novelties
           </h2>
-          <p>
+          <p className="text-lg">
             You can't buy happiness, but you can buy ice cream, and that is
             pretty much the same thing.
           </p>
-          <button>
+          <button className="btn header-btn">
             Shop Now <i className="ri-arrow-right-line"></i>
           </button>
         </div>

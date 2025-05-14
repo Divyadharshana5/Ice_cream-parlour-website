@@ -28,6 +28,10 @@
   @apply hidden sm:block;
 }
 
+.header-btn {
+  @apply rounded-3xl h-[48px] w-[150px] bg-white text-red-600 hover:text-white hover:bg-red-600;
+}
+
 .bar {
   @apply w-[40px] flex md:hidden justify-center items-center;
 }
