@@ -22,8 +22,12 @@ const Index = () => {
             Shop Now <i className="ri-arrow-right-line"></i>
           </button>
         </div>
-        <div className="">
-          <img src={heroImage} alt="header-image" className="" />
+        <div className="w-[50%] flex items-center justify-center z-[1] relative md:absolute">
+          <img
+            src={heroImage}
+            alt="header-image"
+            className="w-full sm:w-[400px] 2xl:w-[600px]"
+          />
         </div>
       </div>
     </div>
