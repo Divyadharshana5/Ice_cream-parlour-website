@@ -39,3 +39,11 @@
 .show-menu {
   @apply left-[0%];
 }
+
+section {
+  @apply w-full px-[12%] py-[80px] flex flex-col;
+}
+
+.section_heading {
+  @apply text-center text-5xl w-full font-semibold font-Kalnia;
+}
