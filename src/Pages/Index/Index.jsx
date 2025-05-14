@@ -8,7 +8,7 @@ const Index = () => {
       <Navbar />
 
       <div className="w-full px-[12%] pt-[100px] flex gap-[20px] flex-col lg:flex-row">
-        <div className="">
+        <div className="flex flex-col w-[50%] items-start gap-4 justify-center">
           <small>Best Seller</small>
           <h2>
             Ice Cream <br />
