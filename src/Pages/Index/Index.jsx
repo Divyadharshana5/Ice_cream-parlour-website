@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import heroImage from "./../../assets/rev_home3_1.png";
 import element01 from "./../../assets/HS_decor4.png";
+import element02 from "./../../assets/rev_home3_04.png";
 
 const Index = () => {
   return (
@@ -33,6 +34,11 @@ const Index = () => {
         <img
           src={element01}
           className="w-[80px] h-[80px] absolute -top-[-80%] left-5"
+          alt=""
+        />
+        <img
+          src={element02}
+          className="w-[80px] h-[80px] absolute -top-[-20%] lg:left-[90%] left-[65%] hidden sm:flex"
           alt=""
         />
       </div>
