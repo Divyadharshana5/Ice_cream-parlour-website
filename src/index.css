@@ -47,3 +47,7 @@ section {
 .section_heading {
   @apply text-center text-5xl w-full font-semibold font-Kalnia;
 }
+
+.Slide_text {
+  @apply text-center w-full text-base font-semibold inline-block hidden group-hover:inline-block;
+}

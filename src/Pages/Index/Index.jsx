@@ -3,6 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import heroImage from "./../../assets/rev_home3_1.png";
 import element01 from "./../../assets/HS_decor4.png";
 import element02 from "./../../assets/rev_home3_04.png";
+import slideImage01 from "./../../assets/h3_cat-4.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -53,7 +54,17 @@ const Index = () => {
 
         <Swiper>
           <SwiperSlide>
-            <div className="w-[180px] card group"></div>
+            <div className="w-[180px] card group">
+              <img
+                src={slideImage01}
+                alt="slider-image"
+                className="w-full rounded-full mb-4"
+              />
+              <span className="Slide_text">Ice Cream Bar</span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                2 Products
+              </span>
+            </div>
           </SwiperSlide>
         </Swiper>
       </section>
