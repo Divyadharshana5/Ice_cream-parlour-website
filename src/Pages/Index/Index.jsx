@@ -3,6 +3,8 @@ import Navbar from "../../Components/Navbar/Navbar";
 import heroImage from "./../../assets/rev_home3_1.png";
 import element01 from "./../../assets/HS_decor4.png";
 import element02 from "./../../assets/rev_home3_04.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const Index = () => {
   return (
@@ -48,6 +50,12 @@ const Index = () => {
 
       <section id="category">
         <h3 className="section_heading">Shop by Category</h3>
+
+        <Swiper>
+          <SwiperSlide>
+            <div className="w-[180px] card group"></div>
+          </SwiperSlide>
+        </Swiper>
       </section>
     </>
   );
