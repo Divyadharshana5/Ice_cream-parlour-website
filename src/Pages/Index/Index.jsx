@@ -10,7 +10,7 @@ const Index = () => {
       <Navbar />
 
       <div className="w-full px-[12%] pt-[100px] flex gap-[20px] flex-col lg:flex-row">
-        <div className="flex flex-col w-[50%] items-start gap-4 justify-center">
+        <div className="flex flex-col lg:w-[50%] w-full items-start gap-4 justify-center">
           <small className="text-4xl font-dancing">Best Seller</small>
           <h2 className="text-7xl 2xl:text-8xl font-medium text-red-600 font-Kalnia">
             Ice Cream <br />
