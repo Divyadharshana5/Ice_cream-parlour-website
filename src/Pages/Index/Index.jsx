@@ -52,7 +52,22 @@ const Index = () => {
       <section id="category">
         <h3 className="section_heading pb-10">Shop by Category</h3>
 
-        <Swiper>
+        <Swiper
+          className="w-full mt-[80px]"
+          slidesPerView={5}
+          spaceBetween={10}
+          breakpoints={{
+            0: {
+              slidesPerView: 1.5,
+            },
+            768: {
+              slidesPerView: 2.5,
+            },
+            1024: {
+              slidesPerView: 4.5,
+            },
+          }}
+        >
           <SwiperSlide className="w-full flex">
             <div className="flex flex-col items-center group">
               <img
