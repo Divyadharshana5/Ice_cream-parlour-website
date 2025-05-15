@@ -150,6 +150,36 @@ const Index = () => {
               </span>
             </div>
           </SwiperSlide>
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage03}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Rolled IceCream
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                3 Products
+              </span>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage02}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Frozen Yogurt
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                6 Products
+              </span>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </section>
     </>
