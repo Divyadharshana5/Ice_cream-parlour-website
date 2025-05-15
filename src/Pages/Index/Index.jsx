@@ -4,6 +4,10 @@ import heroImage from "./../../assets/rev_home3_1.png";
 import element01 from "./../../assets/HS_decor4.png";
 import element02 from "./../../assets/rev_home3_04.png";
 import slideImage01 from "./../../assets/h3_cat-4.jpg";
+import slideImage02 from "./../../assets/h3_cat-1.jpg";
+import slideImage03 from "./../../assets/h3_cat-2.jpg";
+import slideImage04 from "./../../assets/h3_cat-3.jpg";
+import slideImage05 from "./../../assets/h3_cat-7.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -80,6 +84,69 @@ const Index = () => {
               </span>
               <span className="text-center w-full text-base hidden group-hover:inline-block">
                 2 Products
+              </span>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage02}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Frozen Yogurt
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                6 Products
+              </span>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage03}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Rolled IceCream
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                3 Products
+              </span>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage04}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Vegan IceCream
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                5 Products
+              </span>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
+              <img
+                src={slideImage05}
+                alt="slider-image"
+                className="w-[120px] h-[120px] rounded-full mb-4"
+              />
+              <span className="Slide_text group-hover:hidden">
+                Vegan Gelato
+              </span>
+              <span className="text-center w-full text-base hidden group-hover:inline-block">
+                8 Products
               </span>
             </div>
           </SwiperSlide>
