@@ -50,17 +50,19 @@ const Index = () => {
       {/* Category Section */}
 
       <section id="category">
-        <h3 className="section_heading">Shop by Category</h3>
+        <h3 className="section_heading pb-10">Shop by Category</h3>
 
         <Swiper>
-          <SwiperSlide>
-            <div className="w-[180px] card group">
+          <SwiperSlide className="w-full flex">
+            <div className="flex flex-col items-center group">
               <img
                 src={slideImage01}
                 alt="slider-image"
-                className="w-full rounded-full mb-4"
+                className="w-[120px] h-[120px] rounded-full mb-4"
               />
-              <span className="Slide_text">Ice Cream Bar</span>
+              <span className="Slide_text group-hover:hidden">
+                Ice Cream Bar
+              </span>
               <span className="text-center w-full text-base hidden group-hover:inline-block">
                 2 Products
               </span>

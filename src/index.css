@@ -41,7 +41,7 @@
 }
 
 section {
-  @apply w-full px-[12%] py-[80px] flex flex-col;
+  @apply w-full py-[80px] flex flex-col;
 }
 
 .section_heading {
@@ -49,5 +49,5 @@ section {
 }
 
 .Slide_text {
-  @apply text-center w-full text-base font-semibold inline-block hidden group-hover:inline-block;
+  @apply text-center w-full text-base font-semibold;
 }
