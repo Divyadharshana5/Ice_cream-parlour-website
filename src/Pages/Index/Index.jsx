@@ -211,7 +211,7 @@ const Index = () => {
           </div>
 
           <div className="w-full lg:w-[33%] h-[550px] flex flex-col gap-10">
-            <div className="">
+            <div className="h-[250px] w-full bg-[url(assets/bg-img3.jpg)] bg-cover p-6 flex flex-col pt-4 gap-2 text-white">
               {" "}
               <h3>Best Selling</h3>
               <p>
