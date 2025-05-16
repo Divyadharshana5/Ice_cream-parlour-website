@@ -188,6 +188,19 @@ const Index = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+
+      <section>
+        <div className="">
+          <div className="">
+            <small>Save 20% off</small>
+            <h3>Summer 2025</h3>
+            <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
+            <button>Shop Now</button>
+          </div>
+          <div className=""></div>
+          <div className=""></div>
+        </div>
+      </section>
     </>
   );
 };
