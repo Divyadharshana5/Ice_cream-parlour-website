@@ -190,8 +190,8 @@ const Index = () => {
       </section>
 
       <section>
-        <div className="">
-          <div className="">
+        <div className="flex gap-[10px] flex-wrap lg:flex-nowrap">
+          <div className="w-full sm:w-[46%] lg:w-[33%]">
             <small>Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
@@ -216,9 +216,6 @@ const Index = () => {
             <p>
               Smooth & Creamy <br /> texture,low in calorie.
             </p>
-            <button>
-              Shop Now <i className="ri-arrow-right-line"></i>
-            </button>
           </div>
         </div>
       </section>
