@@ -210,12 +210,21 @@ const Index = () => {
             </button>
           </div>
 
-          <div className="">
-            {" "}
-            <h3>Best Selling</h3>
-            <p>
-              Smooth & Creamy <br /> texture,low in calorie.
-            </p>
+          <div className="w-full lg:w-[33%] h-[550px] flex flex-col gap-10">
+            <div className="">
+              {" "}
+              <h3>Best Selling</h3>
+              <p>
+                The 1# Best <br /> Selling Gelato.
+              </p>
+            </div>
+            <div className="">
+              {" "}
+              <h3>Best Selling</h3>
+              <p>
+                Smooth & Creamy <br /> texture,low in calorie.
+              </p>
+            </div>
           </div>
         </div>
       </section>
