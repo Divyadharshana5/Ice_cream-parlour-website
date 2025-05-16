@@ -195,10 +195,31 @@ const Index = () => {
             <small>Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
-            <button>Shop Now</button>
+            <button>
+              Shop Now <i className="ri-arrow-right-line"></i>
+            </button>
           </div>
-          <div className=""></div>
-          <div className=""></div>
+
+          <div className="">
+            {" "}
+            <small>Save 20% off</small>
+            <h3>Summer 2025</h3>
+            <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
+            <button>
+              Shop Now <i className="ri-arrow-right-line"></i>
+            </button>
+          </div>
+
+          <div className="">
+            {" "}
+            <h3>Best Selling</h3>
+            <p>
+              Smooth & Creamy <br /> texture,low in calorie.
+            </p>
+            <button>
+              Shop Now <i className="ri-arrow-right-line"></i>
+            </button>
+          </div>
         </div>
       </section>
     </>
