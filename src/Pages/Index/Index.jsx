@@ -191,7 +191,7 @@ const Index = () => {
 
       <section>
         <div className="flex gap-[10px] flex-wrap lg:flex-nowrap">
-          <div className="w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)]">
+          <div className="w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)] bg-cover p-6 text-white flex flex-col items-center pt-15 gap-2">
             <small>Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
@@ -200,7 +200,7 @@ const Index = () => {
             </button>
           </div>
 
-          <div className="">
+          <div className="%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)] bg-cover p-6 text-white flex flex-col items-center pt-15 gap-2">
             {" "}
             <small>Save 20% off</small>
             <h3>Summer 2025</h3>
@@ -210,7 +210,7 @@ const Index = () => {
             </button>
           </div>
 
-          <div className="">
+          <div className="%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)] bg-cover p-6 text-white flex flex-col items-center pt-15 gap-2">
             {" "}
             <h3>Best Selling</h3>
             <p>
