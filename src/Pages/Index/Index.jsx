@@ -191,7 +191,7 @@ const Index = () => {
 
       <section>
         <div className="flex gap-[10px] flex-wrap lg:flex-nowrap">
-          <div className="w-full sm:w-[46%] lg:w-[33%]">
+          <div className="w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)]">
             <small>Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
