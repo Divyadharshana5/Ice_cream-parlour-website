@@ -10,6 +10,7 @@ import slideImage04 from "./../../assets/h3_cat-3.jpg";
 import slideImage05 from "./../../assets/h3_cat-7.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
 
 const Index = () => {
   return (
@@ -60,6 +61,11 @@ const Index = () => {
           className="w-full mt-[80px]"
           slidesPerView={5}
           spaceBetween={10}
+          autoplay={{
+            delay: 2500,
+          }}
+          modules={[Autoplay]}
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1.5,
