@@ -51,3 +51,6 @@ section {
 .Slide_text {
   @apply text-center w-full text-base font-semibold;
 }
+.headerbtn {
+  @apply rounded-3xl h-[48px] w-[150px] bg-white text-red-600 hover:bg-red-600 hover:text-white;
+}

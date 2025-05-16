@@ -192,20 +192,19 @@ const Index = () => {
       <section>
         <div className="flex gap-[10px] flex-wrap lg:flex-nowrap">
           <div className="w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img1.jpg)] bg-cover p-6 text-white flex flex-col items-center pt-15 gap-2">
-            <small>Save 20% off</small>
+            <small className="text-2xl">Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
-            <button>
+            <button className="btn headerbtn">
               Shop Now <i className="ri-arrow-right-line"></i>
             </button>
           </div>
 
           <div className="w-full sm:w-[46%] lg:w-[33%] h-[550px] bg-[url(assets/bg-img2.jpg)] bg-cover p-6 text-white flex flex-col items-center pt-15 gap-2">
-            {" "}
-            <small>Save 20% off</small>
+            <small className="text-2xl">Save 20% off</small>
             <h3>Summer 2025</h3>
             <p>Smooth & Refreshing,intensely,Flavorful,100% Diary free</p>
-            <button>
+            <button className="btn headerbtn">
               Shop Now <i className="ri-arrow-right-line"></i>
             </button>
           </div>
