@@ -218,8 +218,8 @@ const Index = () => {
               </p>
             </div>
             <div className="h-[250px] w-full bg-[url(assets/bg-img4.jpg)] bg-cover p-6 flex flex-col pt-4 gap-2 text-white">
-              <h3>Best Selling</h3>
-              <p>
+              <h3 className="text-3xl">Best Selling</h3>
+              <p className="pt-20">
                 Smooth & Creamy <br /> texture,low in calorie.
               </p>
             </div>
