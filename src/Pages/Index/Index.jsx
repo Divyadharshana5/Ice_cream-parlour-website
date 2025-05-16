@@ -217,7 +217,7 @@ const Index = () => {
                 The 1# Best <br /> Selling Gelato.
               </p>
             </div>
-            <div className="h-[250px] w-full bg-[url(assets/bg-img3.jpg)] bg-cover p-6 flex flex-col pt-4 gap-2 text-white">
+            <div className="h-[250px] w-full bg-[url(assets/bg-img4.jpg)] bg-cover p-6 flex flex-col pt-4 gap-2 text-white">
               <h3>Best Selling</h3>
               <p>
                 Smooth & Creamy <br /> texture,low in calorie.
