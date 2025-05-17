@@ -398,7 +398,7 @@ const Index = () => {
         <h3 className="section_heading">Eat Ice Cream,Be Happy!</h3>
 
         {/* Grid Wrapper*/}
-        <div className="mt-30 grid grid-cols-4 ">
+        <div className="mt-30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
           {/*Grid Card */}
           <div className="w-full flex flex-col gap-2 relative card">
             {/* Grid Image*/}
