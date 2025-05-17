@@ -612,6 +612,33 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <section>
+        <div>
+          <div className="flex items-center">
+            <h3>1.5</h3>
+            <p>
+              Millon Liters <br />
+              <span>Produced Over</span>
+            </p>
+          </div>
+
+          <div className="">
+            <h3>29</h3>
+            <p>
+              Millon <br />
+              <span>Scoops Sold</span>
+            </p>
+          </div>
+          <div className="">
+            <h3>20</h3>
+            <p>
+              Years of <br />
+              <span>Our Experience</span>
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
