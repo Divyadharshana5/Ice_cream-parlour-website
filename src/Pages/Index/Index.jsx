@@ -396,6 +396,19 @@ const Index = () => {
       {/* Shop Section */}
       <section className="section_heading">
         <h3>Eat Ice Cream,Be Happy!</h3>
+
+        {/* Grid Wrapper*/}
+        <div className="">
+          {/*Grid Card */}
+          <div className="">
+            {/* Grid Image*/}
+            <div className="">
+              <img src="" alt="" />
+              {/* Grid card content*/}
+              <div className=""></div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
