@@ -394,15 +394,15 @@ const Index = () => {
       </section>
 
       {/* Shop Section */}
-      <section className="section_heading">
-        <h3>Eat Ice Cream,Be Happy!</h3>
+      <section id="shop">
+        <h3 className="section_heading">Eat Ice Cream,Be Happy!</h3>
 
         {/* Grid Wrapper*/}
-        <div className="">
+        <div className="mt-30 grid grid-cols-4 ">
           {/*Grid Card */}
-          <div className="">
+          <div className="w-full flex flex-col gap-2 relative card">
             {/* Grid Image*/}
-            <div className="w-full flex flex-col gap-2 relative card">
+            <div className="w-full ">
               <img src={slideImg1} alt="" />
               <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
                 <i className="ri-heart-line icon-card"></i>
@@ -410,7 +410,7 @@ const Index = () => {
                 <i className="ri-eye-line icon-card"></i>
               </div>
               {/* Grid card content*/}
-              <div className="">
+              <div className="flex flex-col gap-2 items-center">
                 <div className="">
                   <i className="ri-star-fill"></i>
                   <i className="ri-star-fill"></i>
@@ -418,7 +418,9 @@ const Index = () => {
                   <i className="ri-star-fill"></i>
                   <i className="ri-star-line"></i>
                 </div>
-                <h2>Chocolate Fudge Browning</h2>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Chocolate Fudge Browning
+                </h2>
                 <span>$7.50</span>
               </div>
             </div>
