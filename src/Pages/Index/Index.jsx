@@ -402,15 +402,21 @@ const Index = () => {
           {/*Grid Card */}
           <div className="">
             {/* Grid Image*/}
-            <div className="">
+            <div className="w-full flex flex-col gap-2 relative card">
               <img src={slideImg1} alt="" />
-              <div className="">
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
                 <i className="ri-heart-line icon-card"></i>
                 <i className="ri-shuffle-line icon-card"></i>
                 <i className="ri-eye-line icon-card"></i>
               </div>
               {/* Grid card content*/}
-              <div className=""></div>
+              <div className="">
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-fill"></i>
+                <i className="ri-star-line"></i>
+              </div>
             </div>
           </div>
         </div>
