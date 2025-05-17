@@ -235,10 +235,10 @@ const Index = () => {
 
         <Swiper>
           <SwiperSlide>
-            <div>
+            <div className="relative flex flex-col gap-[10px] card">
               <div className="w-full">
                 <img src={slideImg1} alt="" className="w-full" />
-                <div className="">
+                <div className="absolute top-5 flex flex-col right-5 gap-2 icons-card hidden">
                   <i className="ri-heart-line icon-card"></i>
                   <i className="ri-shuffle-line icon-card"></i>
                   <i className="ri-eye-line icon-card"></i>
