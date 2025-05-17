@@ -392,6 +392,11 @@ const Index = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+
+      {/* Shop Section */}
+      <section className="section_heading">
+        <h3>Eat Ice Cream,Be Happy!</h3>
+      </section>
     </>
   );
 };
