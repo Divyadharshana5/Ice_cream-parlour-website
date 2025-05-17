@@ -16,6 +16,9 @@ import slideImg2 from "./../../assets/slideimg2.jpg";
 import slideImg3 from "./../../assets/slideimg3.jpg";
 import slideImg4 from "./../../assets/slideimg4.jpg";
 import slideImg5 from "./../../assets/slideimg5.jpg";
+import slideImg6 from "./../../assets/slideimg6.jpg";
+import slideImg7 from "./../../assets/slideimg7.jpg";
+import slideImg8 from "./../../assets/slideimg8.jpg";
 
 const Index = () => {
   return (
@@ -526,6 +529,84 @@ const Index = () => {
                   Beckon Fudge Icecream
                 </h2>
                 <span>$11.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg6} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Noosa Icecream
+                </h2>
+                <span>$17.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg7} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Ice cream
+                </h2>
+                <span>$14.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg6} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Halo Tops Icecream
+                </h2>
+                <span>$14.50</span>
               </div>
             </div>
           </div>
