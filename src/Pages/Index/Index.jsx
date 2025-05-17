@@ -403,7 +403,12 @@ const Index = () => {
           <div className="">
             {/* Grid Image*/}
             <div className="">
-              <img src="" alt="" />
+              <img src={slideImg1} alt="" />
+              <div className="">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
               {/* Grid card content*/}
               <div className=""></div>
             </div>
