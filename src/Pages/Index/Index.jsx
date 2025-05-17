@@ -228,7 +228,9 @@ const Index = () => {
         </div>
       </section>
       {/*Popular flavor Section */}
-      <section id="popular"></section>
+      <section id="popular">
+        <h3 className="section_heading">Popular Scoop Flavors</h3>
+      </section>
     </>
   );
 };
