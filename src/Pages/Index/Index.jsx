@@ -429,7 +429,7 @@ const Index = () => {
           <div className="w-full flex flex-col gap-2 relative card">
             {/* Grid Image*/}
             <div className="w-full ">
-              <img src={slideImg1} alt="" />
+              <img src={slideImg3} alt="" />
               <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
                 <i className="ri-heart-line icon-card"></i>
                 <i className="ri-shuffle-line icon-card"></i>
@@ -445,9 +445,87 @@ const Index = () => {
                   <i className="ri-star-line"></i>
                 </div>
                 <h2 className="text-lg font-bold text-rose-400 text-center">
-                  Chocolate Fudge Browning
+                  Peekaboo Icecream
                 </h2>
-                <span>$7.50</span>
+                <span>$13.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg2} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Booms Battles Icecream
+                </h2>
+                <span>$5.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg4} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  London Diary
+                </h2>
+                <span>$9.50</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-2 relative card">
+            {/* Grid Image*/}
+            <div className="w-full ">
+              <img src={slideImg5} alt="" />
+              <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
+                <i className="ri-heart-line icon-card"></i>
+                <i className="ri-shuffle-line icon-card"></i>
+                <i className="ri-eye-line icon-card"></i>
+              </div>
+              {/* Grid card content*/}
+              <div className="flex flex-col gap-2 items-center">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Beckon Fudge Icecream
+                </h2>
+                <span>$11.50</span>
               </div>
             </div>
           </div>
