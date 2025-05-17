@@ -244,7 +244,18 @@ const Index = () => {
                   <i className="ri-eye-line icon-card"></i>
                 </div>
               </div>
-              <div></div>
+              <div className="">
+                <div className="">
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
+
+                <h2>Chocolate Fudge Browning</h2>
+                <span>$7.50</span>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>
