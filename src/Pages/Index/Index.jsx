@@ -241,6 +241,8 @@ const Index = () => {
           className="mt-20 w-full"
           slidesPerView={3}
           spaceBetween={30}
+          autoplay={{ delay: 1500 }}
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1.5,
@@ -252,6 +254,7 @@ const Index = () => {
               slidesPerView: 3.5,
             },
           }}
+          modules={[Autoplay]}
         >
           <SwiperSlide>
             <div className="relative flex flex-col gap-[10px] card">
