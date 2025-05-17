@@ -11,6 +11,7 @@ import slideImage05 from "./../../assets/h3_cat-7.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+import slideImg1 from "./../../assets/slideimg1.jpg";
 
 const Index = () => {
   return (
@@ -61,7 +62,7 @@ const Index = () => {
           slidesPerView={5}
           spaceBetween={10}
           autoplay={{
-            delay: 2500,
+            delay: 1500,
           }}
           modules={[Autoplay]}
           loop={true}
@@ -227,9 +228,26 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       {/*Popular flavor Section */}
       <section id="popular">
         <h3 className="section_heading">Popular Scoop Flavors</h3>
+
+        <Swiper>
+          <SwiperSlide>
+            <div>
+              <div className="w-full">
+                <img src={slideImg1} alt="" className="w-full" />
+                <div className="">
+                  <i className="ri-heart-line icon-card"></i>
+                  <i className="ri-shuffle-line icon-card"></i>
+                  <i className="ri-eye-line icon-card"></i>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </section>
     </>
   );
