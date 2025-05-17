@@ -12,6 +12,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import slideImg1 from "./../../assets/slideimg1.jpg";
+import slideImg2 from "./../../assets/slideimg2.jpg";
+import slideImg3 from "./../../assets/slideimg3.jpg";
+import slideImg4 from "./../../assets/slideimg4.jpg";
+import slideImg5 from "./../../assets/slideimg5.jpg";
 
 const Index = () => {
   return (
@@ -279,7 +283,7 @@ const Index = () => {
           <SwiperSlide>
             <div className="relative flex flex-col gap-[10px] card">
               <div className="w-full">
-                <img src={slideImg1} alt="" className="w-full" />
+                <img src={slideImg2} alt="" className="w-full" />
                 <div className="absolute top-5 flex flex-col right-5 gap-2 icons-card hidden">
                   <i className="ri-heart-line icon-card"></i>
                   <i className="ri-shuffle-line icon-card"></i>
@@ -296,9 +300,9 @@ const Index = () => {
                 </div>
 
                 <h2 className="text-lg font-bold text-rose-400 text-center">
-                  Chocolate Fudge Browning
+                  Boom Balattl's Icecream
                 </h2>
-                <span>$7.50</span>
+                <span>$5.50</span>
               </div>
             </div>
           </SwiperSlide>
@@ -306,7 +310,7 @@ const Index = () => {
           <SwiperSlide>
             <div className="relative flex flex-col gap-[10px] card">
               <div className="w-full">
-                <img src={slideImg1} alt="" className="w-full" />
+                <img src={slideImg3} alt="" className="w-full" />
                 <div className="absolute top-5 flex flex-col right-5 gap-2 icons-card hidden">
                   <i className="ri-heart-line icon-card"></i>
                   <i className="ri-shuffle-line icon-card"></i>
@@ -323,9 +327,9 @@ const Index = () => {
                 </div>
 
                 <h2 className="text-lg font-bold text-rose-400 text-center">
-                  Chocolate Fudge Browning
+                  Peekaboo Icecream
                 </h2>
-                <span>$7.50</span>
+                <span>$13.50</span>
               </div>
             </div>
           </SwiperSlide>
@@ -333,7 +337,7 @@ const Index = () => {
           <SwiperSlide>
             <div className="relative flex flex-col gap-[10px] card">
               <div className="w-full">
-                <img src={slideImg1} alt="" className="w-full" />
+                <img src={slideImg4} alt="" className="w-full" />
                 <div className="absolute top-5 flex flex-col right-5 gap-2 icons-card hidden">
                   <i className="ri-heart-line icon-card"></i>
                   <i className="ri-shuffle-line icon-card"></i>
@@ -350,9 +354,9 @@ const Index = () => {
                 </div>
 
                 <h2 className="text-lg font-bold text-rose-400 text-center">
-                  Chocolate Fudge Browning
+                  London Diary
                 </h2>
-                <span>$7.50</span>
+                <span>$9.50</span>
               </div>
             </div>
           </SwiperSlide>
@@ -360,7 +364,7 @@ const Index = () => {
           <SwiperSlide>
             <div className="relative flex flex-col gap-[10px] card">
               <div className="w-full">
-                <img src={slideImg1} alt="" className="w-full" />
+                <img src={slideImg5} alt="" className="w-full" />
                 <div className="absolute top-5 flex flex-col right-5 gap-2 icons-card hidden">
                   <i className="ri-heart-line icon-card"></i>
                   <i className="ri-shuffle-line icon-card"></i>
@@ -377,9 +381,9 @@ const Index = () => {
                 </div>
 
                 <h2 className="text-lg font-bold text-rose-400 text-center">
-                  Chocolate Fudge Browning
+                  Beckon Fudge Browning
                 </h2>
-                <span>$7.50</span>
+                <span>$11.50</span>
               </div>
             </div>
           </SwiperSlide>
