@@ -411,11 +411,13 @@ const Index = () => {
               </div>
               {/* Grid card content*/}
               <div className="">
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-fill"></i>
-                <i className="ri-star-line"></i>
+                <div>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-line"></i>
+                </div>
               </div>
             </div>
           </div>
