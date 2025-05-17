@@ -244,7 +244,7 @@ const Index = () => {
                   <i className="ri-eye-line icon-card"></i>
                 </div>
               </div>
-              <div className="">
+              <div className="flex flex-col items-center gap-2">
                 <div className="">
                   <i className="ri-star-fill"></i>
                   <i className="ri-star-fill"></i>
@@ -253,7 +253,9 @@ const Index = () => {
                   <i className="ri-star-line"></i>
                 </div>
 
-                <h2>Chocolate Fudge Browning</h2>
+                <h2 className="text-lg font-bold text-rose-400 text-center">
+                  Chocolate Fudge Browning
+                </h2>
                 <span>$7.50</span>
               </div>
             </div>
