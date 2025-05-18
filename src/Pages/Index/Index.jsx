@@ -646,7 +646,20 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-orange-100" id="testimonials"></section>
+      <section className="bg-orange-100" id="testimonials">
+        <Swiper className="w-full mt-[100px] mb-[100px]">
+          <SwiperSlide>
+            <div className="">
+              <div className=""></div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
+                quidem voluptas eius!
+              </p>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </section>
     </>
   );
 };
