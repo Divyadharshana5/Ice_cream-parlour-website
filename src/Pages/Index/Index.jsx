@@ -20,6 +20,9 @@ import slideImg6 from "./../../assets/slideimg6.jpg";
 import slideImg7 from "./../../assets/slideimg7.jpg";
 import slideImg8 from "./../../assets/slideimg8.jpg";
 import img1 from "./../../assets/img1.jpg";
+import img2 from "./../../assets/img2.jpg";
+import img3 from "./../../assets/img3.jpg";
+import img4 from "./../../assets/img4.jpg";
 
 const Index = () => {
   return (
@@ -653,6 +656,17 @@ const Index = () => {
             <div className="">
               <div className="">
                 <img src={img1} alt="" />
+
+                <div className="">
+                  <div className="">
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-line"></i>
+                  </div>
+                  <span>Sandra</span>
+                </div>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
