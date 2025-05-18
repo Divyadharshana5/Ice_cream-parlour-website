@@ -7,6 +7,9 @@
   --font-dancing: Dancing Script;
   --font-Kalnia: Kalnia;
 }
+* {
+  scroll-behavior: smooth;
+}
 
 @tailwind base;
 @tailwind components;
