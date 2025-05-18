@@ -798,13 +798,19 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h2 className="text-2xl mb-5">Find Store</h2>
+            <h2 className="text-2xl ">Find Store</h2>
 
-            <p className="">5606 e Speragge,Ave,Spokane</p>
-            <p className="">Valliay, WA 998877,India</p>
-            <h2>Call Now</h2>
-            <p className="">+91 923456789</p>
-            <p className="">Support@IceParlor.com</p>
+            <p className="text-gray-500 hover:text-white">
+              5606 e Speragge,Ave,Spokane
+            </p>
+            <p className="text-gray-500 hover:text-white">
+              Valliay, WA 998877,India
+            </p>
+            <h2 className="text-2xl ">Call Now</h2>
+            <p className="text-gray-500 hover:text-white">+91 923456789</p>
+            <p className="text-gray-500 hover:text-white">
+              Support@IceParlor.com
+            </p>
           </div>
 
           <div className="flex flex-col gap-2">
