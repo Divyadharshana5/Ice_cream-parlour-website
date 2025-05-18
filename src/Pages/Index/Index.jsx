@@ -765,8 +765,8 @@ const Index = () => {
         </Swiper>
       </section>
 
-      <section>
-        <div className="">
+      <section className="bg-black text-white flex flex-col gap-5">
+        <div className="grid grid-cols-4">
           <div className="">
             <span className="">IceCream Parlor</span>
             <div className="">
