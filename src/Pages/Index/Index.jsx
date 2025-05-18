@@ -686,9 +686,7 @@ const Index = () => {
               </div>
               <p>
                 Nice tiny Ice cream place, hidden... Surprised with fresh ice
-                cream collections. Seriously they have good natural flavours,
-                milk shakes and ice cream combos customized on request, it's a
-                ice cream paradise.
+                cream collections.
               </p>
             </div>
           </SwiperSlide>
