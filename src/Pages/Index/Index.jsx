@@ -651,6 +651,7 @@ const Index = () => {
       </section>
 
       <section className="bg-orange-100" id="testimonials">
+        <h3 className="section_heading">Happy Clients Say</h3>
         <Swiper
           className="w-full mt-[100px] mb-[100px]"
           slidesPerView={3}
@@ -684,9 +685,10 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
-                quidem voluptas eius!
+                Nice tiny Ice cream place, hidden... Surprised with fresh ice
+                cream collections. Seriously they have good natural flavours,
+                milk shakes and ice cream combos customized on request, it's a
+                ice cream paradise.
               </p>
             </div>
           </SwiperSlide>
@@ -708,9 +710,8 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
-                quidem voluptas eius!
+                Such a nice place to have ice creams best flavours and healthy
+                juices plzzz do visit and enjoy you summer
               </p>
             </div>
           </SwiperSlide>
@@ -732,9 +733,8 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
-                quidem voluptas eius!
+                All kinds of flavours are available and ice cream tastes really
+                fabulous. Give a try. One shld try sandwiches too.
               </p>
             </div>
           </SwiperSlide>
@@ -756,9 +756,9 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
-                quidem voluptas eius!
+                Had around 5 different flavours of ice-cream, natural ice creams
+                are really good and will definitely recommend this place, 4
+                wheeler parking might be a bit challenging.
               </p>
             </div>
           </SwiperSlide>
