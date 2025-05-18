@@ -808,7 +808,9 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <p>@2025 IceCream Parlor. All Rights Reserved</p>
+        <p className="text-center pt-8 border-t-1 border-gray-500">
+          @2025 IceCream Parlor. All Rights Reserved
+        </p>
       </section>
     </>
   );
