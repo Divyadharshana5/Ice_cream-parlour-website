@@ -801,6 +801,11 @@ const Index = () => {
               <p className="">+91 923456789</p>
               <p className="">Support@IceParlor.com</p>
             </div>
+            <div className="">
+              <h2>Opening Hours</h2>
+              <p className="">Monday,Sunday</p>
+              <p className="">9:00am - 10:00pm</p>
+            </div>
           </div>
         </div>
         <p>@2025 IceCream Parlor. All Rights Reserved</p>
