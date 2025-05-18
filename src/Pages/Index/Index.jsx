@@ -764,6 +764,47 @@ const Index = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+
+      <section>
+        <div className="">
+          <div className="">
+            <span className="">IceCream Parlor</span>
+            <div className="">
+              <span className="">Follow Us</span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+                possimus provident alias
+              </p>
+              <div className="">
+                <i className="ri-facebook-line"></i>
+                <i className="ri-twitter-x-line"></i>
+                <i className="ri-youtube-line"></i>
+                <i className="ri-instagram-line"></i>
+              </div>
+            </div>
+            <div className="">
+              <h2>Usefull Links</h2>
+              <p className="">About</p>
+              <p className="">Service</p>
+              <p className="">Storage</p>
+              <p className="">Blog</p>
+              <p className="">Shop</p>
+              <p className="">Menu</p>
+              <p className="">Spw.Menu</p>
+            </div>
+            <div className="">
+              <h2 className="">Find Store</h2>
+
+              <p className="">5606 e Speragge,Ave,Spokane</p>
+              <p className="">Valliay, WA 998877,India</p>
+              <h2>Call Now</h2>
+              <p className="">+91 923456789</p>
+              <p className="">Support@IceParlor.com</p>
+            </div>
+          </div>
+        </div>
+        <p>@2025 IceCream Parlor. All Rights Reserved</p>
+      </section>
     </>
   );
 };
