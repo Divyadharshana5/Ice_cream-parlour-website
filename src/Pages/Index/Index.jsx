@@ -656,6 +656,8 @@ const Index = () => {
           className="w-full mt-[100px] mb-[100px]"
           slidesPerView={3}
           spaceBetween={20}
+          autoplay={{ delay: 1500 }}
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1.5,
@@ -667,6 +669,7 @@ const Index = () => {
               slidesPerView: 3,
             },
           }}
+          modules={[Autoplay]}
         >
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
@@ -708,8 +711,8 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Such a nice place to have ice creams best flavours and healthy
-                juices plzzz do visit and enjoy you summer
+                All kinds of flavours are available and ice cream tastes really
+                fabulous. Give a try. One shld try sandwiches too.
               </p>
             </div>
           </SwiperSlide>
@@ -731,8 +734,8 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                All kinds of flavours are available and ice cream tastes really
-                fabulous. Give a try. One shld try sandwiches too.
+                Nice tiny Ice cream place, hidden... Surprised with fresh ice
+                cream collections.
               </p>
             </div>
           </SwiperSlide>
@@ -754,9 +757,8 @@ const Index = () => {
                 </div>
               </div>
               <p>
-                Had around 5 different flavours of ice-cream, natural ice creams
-                are really good and will definitely recommend this place, 4
-                wheeler parking might be a bit challenging.
+                All kinds of flavours are available and ice cream tastes really
+                fabulous. Give a try. One shld try sandwiches too.
               </p>
             </div>
           </SwiperSlide>
