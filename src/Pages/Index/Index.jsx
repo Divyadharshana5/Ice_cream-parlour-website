@@ -651,7 +651,22 @@ const Index = () => {
       </section>
 
       <section className="bg-orange-100" id="testimonials">
-        <Swiper className="w-full mt-[100px] mb-[100px]">
+        <Swiper
+          className="w-full mt-[100px] mb-[100px]"
+          slidesPerView={3}
+          spaceBetween={20}
+          breakpoints={{
+            0: {
+              slidesPerView: 1.5,
+            },
+            768: {
+              slidesPerView: 2.5,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          }}
+        >
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
               <div className="flex items-start gap-3">
