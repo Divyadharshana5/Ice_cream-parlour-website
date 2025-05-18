@@ -767,45 +767,50 @@ const Index = () => {
 
       <section className="bg-black text-white flex flex-col gap-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-5 pb-9">
-          <div className="">
-            <span className="">IceCream Parlor</span>
-            <div className="">
+          <div className="flex flex-col gap-2">
+            <span className="text-2xl text-red-600 font-bold cursor-pointer">
+              IceCream Parlor
+            </span>
+            <div className="flex flex-col mt-4">
               <span className="">Follow Us</span>
-              <p>
+              <p className="text-gray-500 hover:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
                 possimus provident alias
               </p>
-              <div className="">
-                <i className="ri-facebook-line"></i>
-                <i className="ri-twitter-x-line"></i>
-                <i className="ri-youtube-line"></i>
-                <i className="ri-instagram-line"></i>
+              <div className="flex gap-4 mt-4">
+                <i className="ri-facebook-line text-gray-500 hover:text-white hover cursor-pointer"></i>
+                <i className="ri-twitter-x-line text-gray-500 hover:text-white cursor-pointer"></i>
+                <i className="ri-youtube-line text-gray-500 hover:text-white cursor-pointer"></i>
+                <i className="ri-instagram-line text-gray-500 hover:text-white cursor-pointer"></i>
               </div>
             </div>
-            <div className="">
-              <h2>Usefull Links</h2>
-              <p className="">About</p>
-              <p className="">Service</p>
-              <p className="">Storage</p>
-              <p className="">Blog</p>
-              <p className="">Shop</p>
-              <p className="">Menu</p>
-              <p className="">Spw.Menu</p>
-            </div>
-            <div className="">
-              <h2 className="">Find Store</h2>
+          </div>
 
-              <p className="">5606 e Speragge,Ave,Spokane</p>
-              <p className="">Valliay, WA 998877,India</p>
-              <h2>Call Now</h2>
-              <p className="">+91 923456789</p>
-              <p className="">Support@IceParlor.com</p>
-            </div>
-            <div className="">
-              <h2>Opening Hours</h2>
-              <p className="">Monday,Sunday</p>
-              <p className="">9:00am - 10:00pm</p>
-            </div>
+          <div className="flex flex-col gap-2">
+            <h2>Usefull Links</h2>
+            <p className="">About</p>
+            <p className="">Service</p>
+            <p className="">Storage</p>
+            <p className="">Blog</p>
+            <p className="">Shop</p>
+            <p className="">Menu</p>
+            <p className="">Spw.Menu</p>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h2 className="">Find Store</h2>
+
+            <p className="">5606 e Speragge,Ave,Spokane</p>
+            <p className="">Valliay, WA 998877,India</p>
+            <h2>Call Now</h2>
+            <p className="">+91 923456789</p>
+            <p className="">Support@IceParlor.com</p>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <h2>Opening Hours</h2>
+            <p className="">Monday,Sunday</p>
+            <p className="">9:00am - 10:00pm</p>
           </div>
         </div>
         <p className="text-center pt-8 border-t-1 border-gray-500">
