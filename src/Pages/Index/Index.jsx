@@ -27,7 +27,10 @@ import img4 from "./../../assets/img4.jpg";
 const Index = () => {
   return (
     <>
-      <div className="flex flex-col gap-[20px] relative min-h-[90vh] bg-[#ffded1]">
+      <div
+        className="flex flex-col gap-[20px] relative min-h-[90vh] bg-[#ffded1]"
+        id="home"
+      >
         <Navbar />
 
         <div className="w-full px-[12%] pt-[100px] flex gap-[20px] flex-col lg:flex-row">

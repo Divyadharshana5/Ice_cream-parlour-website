@@ -21,38 +21,32 @@ const Navbar = () => {
         >
           <ul className="w-full flex flex-col md:flex-row gap-[15px] justify-center">
             <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
+              <a href="#home" className="Navbar-link">
                 Home
               </a>
             </li>
 
             <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
+              <a href="#category" className="Navbar-link">
                 Category
               </a>
             </li>
 
             <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
+              <a href="#popular" className="Navbar-link">
                 Popular
               </a>
             </li>
 
             <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
+              <a href="#shop" className="Navbar-link">
                 Shop
               </a>
             </li>
 
             <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
+              <a href="#testimonial" className="Navbar-link">
                 Testimonial
-              </a>
-            </li>
-
-            <li className="nav-wrapper">
-              <a href="#" className="Navbar-link">
-                Contact
               </a>
             </li>
           </ul>
