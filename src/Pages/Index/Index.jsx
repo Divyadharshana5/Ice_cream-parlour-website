@@ -613,7 +613,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section>
+      <section className="flex justify-between flex-wrap gap-5">
         <div>
           <div className="flex items-center gap-4">
             <h3 className="text-6xl font-bold text-rose-500">1.5</h3>
@@ -629,14 +629,18 @@ const Index = () => {
             <h3 className="text-6xl font-bold text-rose-500">29</h3>
             <p className="text-gray-400">
               Millon <br />
-              <span>Scoops Sold</span>
+              <span className="text-2xl text-black font-semibold">
+                Scoops Sold
+              </span>
             </p>
           </div>
           <div className="flex items-center gap-4">
             <h3 className="text-6xl font-bold text-rose-500">20</h3>
             <p className="text-gray-400">
               Years of <br />
-              <span>Our Experience</span>
+              <span className="text-2xl text-black font-semibold">
+                Our Experience
+              </span>
             </p>
           </div>
         </div>
