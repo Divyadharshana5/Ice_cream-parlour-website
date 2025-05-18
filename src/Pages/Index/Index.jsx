@@ -613,8 +613,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="flex justify-between flex-wrap gap-5">
-        <div>
+      <section>
+        <div className="flex justify-between flex-wrap gap-5">
           <div className="flex items-center gap-4">
             <h3 className="text-6xl font-bold text-rose-500">1.5</h3>
             <p className="text-gray-400">
