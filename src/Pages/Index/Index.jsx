@@ -778,7 +778,7 @@ const Index = () => {
                 possimus provident alias
               </p>
               <div className="flex gap-4 mt-4">
-                <i className="ri-facebook-line text-gray-500 hover:text-white hover cursor-pointer"></i>
+                <i className="ri-facebook-line text-gray-500 hover:text-white cursor-pointer"></i>
                 <i className="ri-twitter-x-line text-gray-500 hover:text-white cursor-pointer"></i>
                 <i className="ri-youtube-line text-gray-500 hover:text-white cursor-pointer"></i>
                 <i className="ri-instagram-line text-gray-500 hover:text-white cursor-pointer"></i>
@@ -787,14 +787,14 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h2>Usefull Links</h2>
-            <p className="">About</p>
-            <p className="">Service</p>
-            <p className="">Storage</p>
-            <p className="">Blog</p>
-            <p className="">Shop</p>
-            <p className="">Menu</p>
-            <p className="">Spw.Menu</p>
+            <h2 className="text-2xl">Usefull Links</h2>
+            <p className="text-gray-500 hover:text-white">About</p>
+            <p className="text-gray-500 hover:text-white">Service</p>
+            <p className="text-gray-500 hover:text-white">Storage</p>
+            <p className="text-gray-500 hover:text-white">Blog</p>
+            <p className="text-gray-500 hover:text-white">Shop</p>
+            <p className="text-gray-500 hover:text-white">Menu</p>
+            <p className="text-gray-500 hover:text-white">Spw.Menu</p>
           </div>
 
           <div className="flex flex-col gap-2">
