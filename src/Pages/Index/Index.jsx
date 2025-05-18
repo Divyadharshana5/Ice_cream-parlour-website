@@ -19,6 +19,7 @@ import slideImg5 from "./../../assets/slideimg5.jpg";
 import slideImg6 from "./../../assets/slideimg6.jpg";
 import slideImg7 from "./../../assets/slideimg7.jpg";
 import slideImg8 from "./../../assets/slideimg8.jpg";
+import img1 from "./../../assets/img1.jpg";
 
 const Index = () => {
   return (
@@ -588,7 +589,7 @@ const Index = () => {
           <div className="w-full flex flex-col gap-2 relative card">
             {/* Grid Image*/}
             <div className="w-full ">
-              <img src={slideImg6} alt="" />
+              <img src={slideImg8} alt="" />
               <div className="absolute top-5 flex flex-col gap-2 right-5 hidden icons-card">
                 <i className="ri-heart-line icon-card"></i>
                 <i className="ri-shuffle-line icon-card"></i>
@@ -650,7 +651,9 @@ const Index = () => {
         <Swiper className="w-full mt-[100px] mb-[100px]">
           <SwiperSlide>
             <div className="">
-              <div className=""></div>
+              <div className="">
+                <img src={img1} alt="" />
+              </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
                 voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
