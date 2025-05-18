@@ -615,24 +615,26 @@ const Index = () => {
 
       <section>
         <div>
-          <div className="flex items-center">
-            <h3>1.5</h3>
-            <p>
+          <div className="flex items-center gap-4">
+            <h3 className="text-6xl font-bold text-rose-500">1.5</h3>
+            <p className="text-gray-400">
               Millon Liters <br />
-              <span>Produced Over</span>
+              <span className="text-2xl text-black font-semibold">
+                Produced Over
+              </span>
             </p>
           </div>
 
-          <div className="">
-            <h3>29</h3>
-            <p>
+          <div className="flex items-center gap-4">
+            <h3 className="text-6xl font-bold text-rose-500">29</h3>
+            <p className="text-gray-400">
               Millon <br />
               <span>Scoops Sold</span>
             </p>
           </div>
-          <div className="">
-            <h3>20</h3>
-            <p>
+          <div className="flex items-center gap-4">
+            <h3 className="text-6xl font-bold text-rose-500">20</h3>
+            <p className="text-gray-400">
               Years of <br />
               <span>Our Experience</span>
             </p>
