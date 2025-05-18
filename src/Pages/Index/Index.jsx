@@ -645,6 +645,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <section className="bg-orange-100" id="testimonials"></section>
     </>
   );
 };
