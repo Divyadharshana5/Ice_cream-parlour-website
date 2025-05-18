@@ -653,11 +653,11 @@ const Index = () => {
       <section className="bg-orange-100" id="testimonials">
         <Swiper className="w-full mt-[100px] mb-[100px]">
           <SwiperSlide>
-            <div className="">
-              <div className="">
-                <img src={img1} alt="" />
+            <div className="w-full card group p-8 bg-white">
+              <div className="flex items-start gap-3">
+                <img src={img1} alt="" className="w-[50px] rounded-full mb-4" />
 
-                <div className="">
+                <div className="flex flex-col">
                   <div className="">
                     <i className="ri-star-fill"></i>
                     <i className="ri-star-fill"></i>
@@ -665,7 +665,79 @@ const Index = () => {
                     <i className="ri-star-fill"></i>
                     <i className="ri-star-line"></i>
                   </div>
-                  <span>Sandra</span>
+                  <span className="text-sm">Sandra</span>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
+                quidem voluptas eius!
+              </p>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-full card group p-8 bg-white">
+              <div className="flex items-start gap-3">
+                <img src={img2} alt="" className="w-[50px] rounded-full mb-4" />
+
+                <div className="flex flex-col">
+                  <div className="">
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-line"></i>
+                  </div>
+                  <span className="text-sm">Asma Cornor</span>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
+                quidem voluptas eius!
+              </p>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-full card group p-8 bg-white">
+              <div className="flex items-start gap-3">
+                <img src={img4} alt="" className="w-[50px] rounded-full mb-4" />
+
+                <div className="flex flex-col">
+                  <div className="">
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-line"></i>
+                  </div>
+                  <span className="text-sm">Kritika</span>
+                </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                voluptatum quae nobis nesciunt dolorum animi quibusdam molestias
+                quidem voluptas eius!
+              </p>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="w-full card group p-8 bg-white">
+              <div className="flex items-start gap-3">
+                <img src={img3} alt="" className="w-[50px] rounded-full mb-4" />
+
+                <div className="flex flex-col">
+                  <div className="">
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-fill"></i>
+                    <i className="ri-star-line"></i>
+                  </div>
+                  <span className="text-sm">Sham</span>
                 </div>
               </div>
               <p>
