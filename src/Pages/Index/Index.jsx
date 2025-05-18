@@ -787,7 +787,7 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h2 className="text-2xl">Usefull Links</h2>
+            <h2 className="text-2xl mb-5">Usefull Links</h2>
             <p className="text-gray-500 hover:text-white">About</p>
             <p className="text-gray-500 hover:text-white">Service</p>
             <p className="text-gray-500 hover:text-white">Storage</p>
@@ -798,7 +798,7 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h2 className="">Find Store</h2>
+            <h2 className="text-2xl mb-5">Find Store</h2>
 
             <p className="">5606 e Speragge,Ave,Spokane</p>
             <p className="">Valliay, WA 998877,India</p>
