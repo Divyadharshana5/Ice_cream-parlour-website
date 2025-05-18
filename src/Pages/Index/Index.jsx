@@ -778,23 +778,37 @@ const Index = () => {
                 possimus provident alias
               </p>
               <div className="flex gap-4 mt-4">
-                <i className="ri-facebook-line text-gray-500 hover:text-white cursor-pointer"></i>
-                <i className="ri-twitter-x-line text-gray-500 hover:text-white cursor-pointer"></i>
-                <i className="ri-youtube-line text-gray-500 hover:text-white cursor-pointer"></i>
-                <i className="ri-instagram-line text-gray-500 hover:text-white cursor-pointer"></i>
+                <i className="ri-facebook-line text-gray-500 hover:text-white cursor-pointer text-2xl"></i>
+                <i className="ri-twitter-x-line text-gray-500 hover:text-white cursor-pointer text-2xl"></i>
+                <i className="ri-youtube-line text-gray-500 hover:text-white cursor-pointer text-2xl"></i>
+                <i className="ri-instagram-line text-gray-500 hover:text-white cursor-pointer text-2xl"></i>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col gap-2">
             <h2 className="text-2xl mb-5">Usefull Links</h2>
-            <p className="text-gray-500 hover:text-white">About</p>
-            <p className="text-gray-500 hover:text-white">Service</p>
-            <p className="text-gray-500 hover:text-white">Storage</p>
-            <p className="text-gray-500 hover:text-white">Blog</p>
-            <p className="text-gray-500 hover:text-white">Shop</p>
-            <p className="text-gray-500 hover:text-white">Menu</p>
-            <p className="text-gray-500 hover:text-white">Spw.Menu</p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              About
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Service
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Storage
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Blog
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Shop
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Menu
+            </p>
+            <p className="text-gray-500 hover:text-white cursor-pointer">
+              Spe.Menu
+            </p>
           </div>
 
           <div className="flex flex-col gap-2">
@@ -814,9 +828,9 @@ const Index = () => {
           </div>
 
           <div className="flex flex-col gap-2">
-            <h2>Opening Hours</h2>
-            <p className="">Monday,Sunday</p>
-            <p className="">9:00am - 10:00pm</p>
+            <h2 className="text-2xl ">Opening Hours</h2>
+            <p className="text-gray-500 hover:text-white">Monday,Sunday</p>
+            <p className="text-gray-500 hover:text-white">9:00am - 10:00pm</p>
           </div>
         </div>
         <p className="text-center pt-8 border-t-1 border-gray-500">
