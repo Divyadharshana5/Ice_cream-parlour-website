@@ -766,7 +766,7 @@ const Index = () => {
       </section>
 
       <section className="bg-black text-white flex flex-col gap-5">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-5 pb-9">
           <div className="">
             <span className="">IceCream Parlor</span>
             <div className="">
