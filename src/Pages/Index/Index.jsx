@@ -677,7 +677,11 @@ const Index = () => {
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
               <div className="flex items-start gap-3">
-                <img src={img1} alt="" className="w-[50px] rounded-full mb-4" />
+                <img
+                  src={img1}
+                  alt=""
+                  className="w-[50px] h-[50px] rounded-full"
+                />
 
                 <div className="flex flex-col">
                   <div className="">
@@ -700,7 +704,11 @@ const Index = () => {
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
               <div className="flex items-start gap-3">
-                <img src={img2} alt="" className="w-[50px] rounded-full mb-4" />
+                <img
+                  src={img2}
+                  alt=""
+                  className="w-[50px] h-[50px] rounded-full"
+                />
 
                 <div className="flex flex-col">
                   <div className="">
@@ -723,7 +731,11 @@ const Index = () => {
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
               <div className="flex items-start gap-3">
-                <img src={img4} alt="" className="w-[50px] rounded-full mb-4" />
+                <img
+                  src={img4}
+                  alt=""
+                  className="w-[50px] h-[50px] rounded-full"
+                />
 
                 <div className="flex flex-col">
                   <div className="">
@@ -746,7 +758,11 @@ const Index = () => {
           <SwiperSlide>
             <div className="w-full card group p-8 bg-white">
               <div className="flex items-start gap-3">
-                <img src={img3} alt="" className="w-[50px] rounded-full mb-4" />
+                <img
+                  src={img3}
+                  alt=""
+                  className="w-[50px] h-[50px] rounded-full"
+                />
 
                 <div className="flex flex-col">
                   <div className="">
